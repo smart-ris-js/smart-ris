@@ -1,0 +1,11 @@
+// smartin.jsonc — v0.1.0
+{
+  "eol": "LF",
+  "license": {
+    "copyright": {
+      "name": "Martin Winkler",
+      "year": "2026"
+    },
+    "packageBanner": true
+  }
+}

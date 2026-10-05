@@ -1,0 +1,9 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./packages/core" },
+    { "path": "./packages/parse" },
+    { "path": "./packages/stringify" },
+    { "path": "./packages/inspect-parse" }
+  ]
+}

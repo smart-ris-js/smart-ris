@@ -1,0 +1,28 @@
+// smartin.jsonc — v0.1.0
+{
+  "eol": "LF",
+  "license": {
+    "copyright": {
+      "name": "Martin Winkler",
+      "year": "2026", // 2026, "2026", "2020-2026", true (current year), false to omit
+      "email": false
+    },
+    "spdx": false,
+    "note": false,
+    "fileHeader": false,
+    "options": {
+      "extensions": [".ts"], // file extensions to scan
+      "exclude": [] // gitignore syntax, relative to this file
+    },
+    "packageBanner": false
+  },
+  "export": {
+    // gitignore syntax, relative to this file; "!pattern" removes matches again (e.g. "!**/fixtures/**").
+    "include": ["*.ts", "package.json", "tsconfig*.json"]
+  },
+  "spec": {
+    // gitignore syntax, relative to this file; files whose comments hold `@spec NNNN` references (required).
+    "code": ["src/**/*.ts"],
+    "tests": ["tests/**/*.ts"]
+  }
+}
